@@ -10,7 +10,7 @@ body {
   
   /* photo background */
   background-image: url(background.jpg);
-  /*background-size: cover;*/
+  background-size: cover;
   background-position: center;  
   
   display: flex;
