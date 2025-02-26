@@ -116,3 +116,35 @@ p {
   filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
   transition: all .3s ease;    
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .banner-image {
+    height: 200px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    }
+}
