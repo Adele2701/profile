@@ -32,7 +32,7 @@ body {
   align-items: center;
   justify-content:center;
   text-align: center;
-   width: 80%;  /* Use percentage width for responsiveness */
+  width: 80%;  /* Use percentage width for responsiveness */
   max-width: 600px;  /* Set a max width to prevent it from becoming too wide */
 }
 
@@ -47,7 +47,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 300px;
-  width: 100%;
+  width: 60%;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255, 0.255)
 }
