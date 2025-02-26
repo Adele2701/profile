@@ -32,7 +32,8 @@ body {
   align-items: center;
   justify-content:center;
   text-align: center;
-  
+   width: 80%;  /* Use percentage width for responsiveness */
+  max-width: 600px;  /* Set a max width to prevent it from becoming too wide */
 }
 
 .wrapper {
