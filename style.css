@@ -9,7 +9,7 @@ body {
   background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(11,3,45,1) 100%);    
   
   /* photo background */
-  background-image: url(background.jpg);
+  background-image: url(background.jpg?auto=format&fit=crop&w=1889&q=80);
   background-size: cover;
   background-position: center;  
   
